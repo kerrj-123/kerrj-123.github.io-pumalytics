@@ -1,3 +1,7 @@
+.start{
+	background-color: rgba(35, 176, 73, .3);
+}
+
 #header_title{
 	text-align: center;
 	margin: 1px;
@@ -6,8 +10,8 @@
 	animation-name: slidein;
 }
 
-h1:hover{
-	color: rgba(181, 39, 29, .5);
+#header_title:hover{
+	color: rgba(35, 176, 73, .5);
 }
 
 @keyframes slidein {
